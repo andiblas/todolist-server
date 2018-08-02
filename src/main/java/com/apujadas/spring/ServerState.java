@@ -1,7 +1,7 @@
 package com.apujadas.spring;
 
 public class ServerState {
-    private boolean isEnabled;
+    private boolean isEnabled = true;
 
     private static ServerState ourInstance = new ServerState();
 
